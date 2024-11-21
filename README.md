@@ -1,15 +1,7 @@
 # React Compound
 
 **React Compound** is a collection of comprehensive React projects designed to help developers build proficiency in React while preparing for real-world challenges. Each project in this series is distinct, showcasing a variety of use cases for React's component-based architecture, hooks, and state management. This repository serves as a learning hub for developers to master React and add impactful projects to their portfolios.
-
-
-
-# The Java Compound 🚀
-
-Welcome to **The Java Compound**, a comprehensive repository designed to help aspiring Java developers master their skills through a series of projects. Each main project comes with 9 subprojects aimed at reinforcing concepts and preparing you for the final implementation of the main project.
-
 ---
-
 ## 📫 How to Reach Me:
 
 **Email**: [ktobia10@wgu.edu](mailto:ktobia10@wgu.edu)  
@@ -21,7 +13,7 @@ Welcome to **The Java Compound**, a comprehensive repository designed to help as
 
 ## About Me
 
-Hi, my name is **Kelvin R. Tobias**, and I’m currently a student at **Western Governors University**, pursuing my bachelor’s degree in **Software Engineering**. My curriculum has provided me with the opportunity to learn **Python**, **JavaScript**, **Java**, and **C#**.
+Hi, my name is **Kelvin R. Tobias**, and I’m currently a student at **Western Governors University**, pursuing my bachelor’s degree in **Software Engineering**. My curriculum has provided me with the opportunity to learn **Python**, **JavaScript**, **Java**, **REACT** and **C#**.
 
 I build a lot of projects in my free time to reinforce what I’ve learned. As you know, it’s hard to remember the syntax for so many languages, so building projects helps solidify my knowledge and skills.
 
