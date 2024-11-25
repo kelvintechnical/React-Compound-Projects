@@ -83,128 +83,162 @@ I build a lot of projects in my free time to reinforce what I’ve learned. As y
 - [Welcome Carousel](#welcome-carousel)
 
 
-# <h1>20 React Projects to Learn Essential Skills</h1>
-    
-    <ol>
-        <li>
-            <h2><a href="#">JSX Introduction: Todo List</a></h2>
-            <p><strong>Skills:</strong> Understanding JSX, Components</p>
-            <p>Create a simple Todo List app where users can add and display tasks. Learn how to use JSX to render the UI and break the app into functional components.</p>
-        </li>
+# 20 React Projects to Learn Essential Skills
 
-        <li>
-            <h2><a href="#">Counter App</a></h2>
-            <p><strong>Skills:</strong> State Management, Functional Components</p>
-            <p>Build a Counter app with buttons to increment and decrement a value. Use <code>useState</code> for managing the counter value and functional components for structure.</p>
-        </li>
+## 1. JSX Introduction: Todo List
+**Skills:** Understanding JSX, Components  
+- Create a simple Todo List app where users can add and display tasks.  
+- Learn how to use JSX to render the UI and break the app into functional components.  
+[Link to Project](#) <!-- Add the project link here -->
 
-        <li>
-            <h2><a href="#">User Profile Card</a></h2>
-            <p><strong>Skills:</strong> Props, Functional Components</p>
-            <p>Create a reusable user profile card that accepts user details (name, photo, bio) as props. Focus on passing and rendering props in components.</p>
-        </li>
+---
 
-        <li>
-            <h2><a href="#">Weather Dashboard</a></h2>
-            <p><strong>Skills:</strong> Lifecycle Methods, State Management</p>
-            <p>Build a weather app that fetches weather data using an API. Use <code>useEffect</code> for fetching data on component mount and <code>useState</code> for managing API responses.</p>
-        </li>
+## 2. Counter App
+**Skills:** State Management, Functional Components  
+- Build a Counter app with buttons to increment and decrement a value.  
+- Use `useState` for managing the counter value and functional components for structure.  
+[Link to Project](#) <!-- Add the project link here -->
 
-        <li>
-            <h2><a href="#">Simple Blog Navigation</a></h2>
-            <p><strong>Skills:</strong> React Router, Components</p>
-            <p>Create a blog app with navigation between Home, About, and Posts pages using React Router. Structure the app with reusable components for each page.</p>
-        </li>
+---
 
-        <li>
-            <h2><a href="#">Theme Switcher</a></h2>
-            <p><strong>Skills:</strong> React Context, State Management</p>
-            <p>Build a theme switcher (dark mode/light mode) using React Context for global state sharing. Use <code>useState</code> to toggle between themes.</p>
-        </li>
+## 3. User Profile Card
+**Skills:** Props, Functional Components  
+- Create a reusable user profile card that accepts user details (name, photo, bio) as props.  
+- Focus on passing and rendering props in components.  
+[Link to Project](#) <!-- Add the project link here -->
 
-        <li>
-            <h2><a href="#">Form Validator</a></h2>
-            <p><strong>Skills:</strong> Custom Hooks, State Management</p>
-            <p>Create a form validator app with fields for email and password. Build a custom hook for validation logic, reusing it across multiple fields.</p>
-        </li>
+---
 
-        <li>
-            <h2><a href="#">Error-Handled Calculator</a></h2>
-            <p><strong>Skills:</strong> Error Boundaries, Functional Components</p>
-            <p>Develop a basic calculator that handles invalid operations (e.g., division by zero) with an error boundary. Learn to isolate errors in components using <code>componentDidCatch</code>.</p>
-        </li>
+## 4. Weather Dashboard
+**Skills:** Lifecycle Methods, State Management  
+- Build a weather app that fetches weather data using an API.  
+- Use `useEffect` for fetching data on component mount and `useState` for managing API responses.  
+[Link to Project](#) <!-- Add the project link here -->
 
-        <li>
-            <h2><a href="#">Debugging with Strict Mode: Feedback Form</a></h2>
-            <p><strong>Skills:</strong> React Strict Mode, State Management</p>
-            <p>Create a feedback form app where users can submit their feedback. Use React Strict Mode to debug and identify best practices in your component structure.</p>
-        </li>
+---
 
-        <li>
-            <h2><a href="#">Image Gallery with Pagination</a></h2>
-            <p><strong>Skills:</strong> React Router, Lifecycle Methods</p>
-            <p>Build an image gallery with multiple pages using React Router for navigation. Use <code>useEffect</code> to fetch images dynamically when navigating between pages.</p>
-        </li>
+## 5. Simple Blog Navigation
+**Skills:** React Router, Components  
+- Create a blog app with navigation between Home, About, and Posts pages using React Router.  
+- Structure the app with reusable components for each page.  
+[Link to Project](#) <!-- Add the project link here -->
 
-        <li>
-            <h2><a href="#">Context-Based Authentication</a></h2>
-            <p><strong>Skills:</strong> React Context, Props</p>
-            <p>Build a simple authentication system with login/logout functionality. Use Context to manage the authentication state and pass it down via props.</p>
-        </li>
+---
 
-        <li>
-            <h2><a href="#">E-Commerce Cart</a></h2>
-            <p><strong>Skills:</strong> State Management, Props</p>
-            <p>Build a shopping cart that displays selected items and their total price. Use <code>useState</code> to manage the cart state and props to display item details.</p>
-        </li>
+## 6. Theme Switcher
+**Skills:** React Context, State Management  
+- Build a theme switcher (dark mode/light mode) using React Context for global state sharing.  
+- Use `useState` to toggle between themes.  
+[Link to Project](#) <!-- Add the project link here -->
 
-        <li>
-            <h2><a href="#">Dynamic Dropdown Menu</a></h2>
-            <p><strong>Skills:</strong> Custom Hooks, Props</p>
-            <p>Create a dynamic dropdown menu where options are passed as props. Write a custom hook to handle dropdown open/close state and logic.</p>
-        </li>
+---
 
-        <li>
-            <h2><a href="#">Blog Post Editor</a></h2>
-            <p><strong>Skills:</strong> Lifecycle Methods, Props</p>
-            <p>Build a blog post editor that fetches existing posts and allows editing. Use <code>useEffect</code> to fetch the initial data and props to pass the post content to components.</p>
-        </li>
+## 7. Form Validator
+**Skills:** Custom Hooks, State Management  
+- Create a form validator app with fields for email and password.  
+- Build a custom hook for validation logic, reusing it across multiple fields.  
+[Link to Project](#) <!-- Add the project link here -->
 
-        <li>
-            <h2><a href="#">Task Manager with Context</a></h2>
-            <p><strong>Skills:</strong> React Context, Functional Components</p>
-            <p>Create a task manager app with categories (e.g., Work, Personal). Use Context to manage tasks globally and functional components for structure.</p>
-        </li>
+---
 
-        <li>
-            <h2><a href="#">Error-Tolerant Search Bar</a></h2>
-            <p><strong>Skills:</strong> Error Boundaries, Lifecycle Methods</p>
-            <p>Develop a search bar that fetches and displays suggestions but gracefully handles API errors. Implement error boundaries to catch issues with data fetching logic.</p>
-        </li>
+## 8. Error-Handled Calculator
+**Skills:** Error Boundaries, Functional Components  
+- Develop a basic calculator that handles invalid operations (e.g., division by zero) with an error boundary.  
+- Learn to isolate errors in components using `componentDidCatch`.  
+[Link to Project](#) <!-- Add the project link here -->
 
-        <li>
-            <h2><a href="#">Themed User Profiles</a></h2>
-            <p><strong>Skills:</strong> React Context, Custom Hooks</p>
-            <p>Build a user profile app with global theme support and reusable custom hooks for fetching user data. Use Context for theme state and hooks for API logic.</p>
-        </li>
+---
 
-        <li>
-            <h2><a href="#">Navigation Bar</a></h2>
-            <p><strong>Skills:</strong> React Router, Props</p>
-            <p>Create a dynamic navigation bar where routes and labels are passed as props. Implement navigation with React Router to switch between views.</p>
-        </li>
+## 9. Debugging with Strict Mode: Feedback Form
+**Skills:** React Strict Mode, State Management  
+- Create a feedback form app where users can submit their feedback.  
+- Use React Strict Mode to debug and identify best practices in your component structure.  
+[Link to Project](#) <!-- Add the project link here -->
 
-        <li>
-            <h2><a href="#">Data Table with Pagination</a></h2>
-            <p><strong>Skills:</strong> State Management, Lifecycle Methods</p>
-            <p>Build a data table displaying paginated user information fetched from an API. Use <code>useState</code> to manage pagination state and <code>useEffect</code> for data fetching.</p>
-        </li>
+---
 
-        <li>
-            <h2><a href="#">Debugging with React Strict Mode</a></h2>
-            <p><strong>Skills:</strong> React Strict Mode, Lifecycle Methods</p>
-            <p>Create a timer app where users can start/stop/reset a timer. Use Strict Mode to catch potential issues with state updates and effects.</p>
-        </li>
-    </ol>
-</body>
-</html>
+## 10. Image Gallery with Pagination
+**Skills:** React Router, Lifecycle Methods  
+- Build an image gallery with multiple pages using React Router for navigation.  
+- Use `useEffect` to fetch images dynamically when navigating between pages.  
+[Link to Project](#) <!-- Add the project link here -->
+
+---
+
+## 11. Context-Based Authentication
+**Skills:** React Context, Props  
+- Build a simple authentication system with login/logout functionality.  
+- Use Context to manage the authentication state and pass it down via props.  
+[Link to Project](#) <!-- Add the project link here -->
+
+---
+
+## 12. E-Commerce Cart
+**Skills:** State Management, Props  
+- Build a shopping cart that displays selected items and their total price.  
+- Use `useState` to manage the cart state and props to display item details.  
+[Link to Project](#) <!-- Add the project link here -->
+
+---
+
+## 13. Dynamic Dropdown Menu
+**Skills:** Custom Hooks, Props  
+- Create a dynamic dropdown menu where options are passed as props.  
+- Write a custom hook to handle dropdown open/close state and logic.  
+[Link to Project](#) <!-- Add the project link here -->
+
+---
+
+## 14. Blog Post Editor
+**Skills:** Lifecycle Methods, Props  
+- Build a blog post editor that fetches existing posts and allows editing.  
+- Use `useEffect` to fetch the initial data and props to pass the post content to components.  
+[Link to Project](#) <!-- Add the project link here -->
+
+---
+
+## 15. Task Manager with Context
+**Skills:** React Context, Functional Components  
+- Create a task manager app with categories (e.g., Work, Personal).  
+- Use Context to manage tasks globally and functional components for structure.  
+[Link to Project](#) <!-- Add the project link here -->
+
+---
+
+## 16. Error-Tolerant Search Bar
+**Skills:** Error Boundaries, Lifecycle Methods  
+- Develop a search bar that fetches and displays suggestions but gracefully handles API errors.  
+- Implement error boundaries to catch issues with data fetching logic.  
+[Link to Project](#) <!-- Add the project link here -->
+
+---
+
+## 17. Themed User Profiles
+**Skills:** React Context, Custom Hooks  
+- Build a user profile app with global theme support and reusable custom hooks for fetching user data.  
+- Use Context for theme state and hooks for API logic.  
+[Link to Project](#) <!-- Add the project link here -->
+
+---
+
+## 18. Navigation Bar
+**Skills:** React Router, Props  
+- Create a dynamic navigation bar where routes and labels are passed as props.  
+- Implement navigation with React Router to switch between views.  
+[Link to Project](#) <!-- Add the project link here -->
+
+---
+
+## 19. Data Table with Pagination
+**Skills:** State Management, Lifecycle Methods  
+- Build a data table displaying paginated user information fetched from an API.  
+- Use `useState` to manage pagination state and `useEffect` for data fetching.  
+[Link to Project](#) <!-- Add the project link here -->
+
+---
+
+## 20. Debugging with React Strict Mode
+**Skills:** React Strict Mode, Lifecycle Methods  
+- Create a timer app where users can start/stop/reset a timer.  
+- Use Strict Mode to catch potential issues with state updates and effects.  
+[Link to Project](#) <!-- Add the project link here -->
