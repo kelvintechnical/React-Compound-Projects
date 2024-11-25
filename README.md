@@ -43,7 +43,7 @@ I believe the best way to learn is by building, which is why I spend my free tim
 **Goal:** Create a React app that displays "Welcome to Banking" and introduces state variables for account balance and user name.  
 **Skills:** React basics, functional components, and `useState`.
 
-### [2. User Input Form](#user-input-form)
+### [2. User Input Form](https://github.com/kelvintechnical/-User-Input-Form/blob/main/README.md)
 **Goal:** Build a form where users can input their name and account balance. Display the entered details on the screen.  
 **Skills:** Handling forms, `useState` for managing form data.
 
