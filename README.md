@@ -39,7 +39,7 @@ I believe the best way to learn is by building, which is why I spend my free tim
 
 ## Phase 1: Foundational React Projects
 
-### [1. Welcome to Banking App](#welcome-to-banking-app)
+### [1. Welcome to Banking App](#[welcome-to-banking-app](https://github.com/kelvintechnical/welcome-to-banking/tree/main))
 **Goal:** Create a React app that displays "Welcome to Banking" and introduces state variables for account balance and user name.  
 **Skills:** React basics, functional components, and `useState`.
 
