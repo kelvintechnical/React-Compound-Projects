@@ -47,41 +47,115 @@ I believe the best way to learn is by building, which is why I spend my free tim
 **Goal:** Build a form where users can input their name and account balance. Display the entered details on the screen.  
 **Skills:** Handling forms, `useState` for managing form data.
 
-### [3. Account Balance Checker](#account-balance-checker)
-**Goal:** Add a feature to check if the entered account balance is above or below a threshold (e.g., $500).  
-**Skills:** Conditional rendering using JavaScript expressions.
+### 3. Account Balance Checker
+**Goal:**  
+Add a feature to check if the entered account balance is above or below a threshold (e.g., $500).
 
-### [4. Fixed Deposit Tracker](#fixed-deposit-tracker)
-**Goal:** Create a button to add fixed deposit amounts to the account balance. Use a loop to simulate 5 deposits and update the balance iteratively.  
-**Skills:** `useState`, event handling, and loops in React.
+**Skills:**  
+- Conditional rendering using JavaScript expressions.
 
-### [5. Personalized Welcome Component](#personalized-welcome-component)
-**Goal:** Display a personalized welcome message using the user’s name and formatted account balance.  
-**Skills:** Props, state management, and string interpolation.
+**Technologies:**  
+- [React Context API](https://reactjs.org/docs/context.html): To manage global state for the account balance.  
+- [Jest](https://jestjs.io/): For unit testing the balance checking logic.
+
+---
+
+### 4. Fixed Deposit Tracker
+**Goal:**  
+Create a button to add fixed deposit amounts to the account balance. Use a loop to simulate 5 deposits and update the balance iteratively.
+
+**Skills:**  
+- `useState`, event handling, and loops in React.
+
+**Technologies:**  
+- [Redux](https://redux.js.org/): To manage state across multiple components.  
+- [Lodash](https://lodash.com/): For simplifying array operations and loops.
+
+---
+
+### 5. Personalized Welcome Component
+**Goal:**  
+Display a personalized welcome message using the user’s name and formatted account balance.
+
+**Skills:**  
+- Props, state management, and string interpolation.
+
+**Technologies:**  
+- [Styled Components](https://styled-components.com/): For styling the welcome message dynamically.  
+- [i18next](https://www.i18next.com/): For handling internationalization and localization of messages.
 
 ---
 
 ## Phase 2: Extended React Projects
 
-### [6. Input Validation Form](#input-validation-form)
-**Goal:** Validate user inputs (e.g., ensure the account balance is numeric). Show error messages for invalid inputs.  
-**Skills:** Form validation, conditional rendering for error messages.
+### 6. Input Validation Form
+**Goal:**  
+Validate user inputs (e.g., ensure the account balance is numeric). Show error messages for invalid inputs.
 
-### [7. Multi-User Banking Dashboard](#multi-user-banking-dashboard)
-**Goal:** Allow adding multiple users with their names and account balances. Display a list of all users with their details.  
-**Skills:** Managing lists with React state, rendering dynamic lists.
+**Skills:**  
+- Form validation.  
+- Conditional rendering for error messages.
 
-### [8. Account Balance Threshold Notifier](#account-balance-threshold-notifier)
-**Goal:** Notify the user dynamically (e.g., red text for low balance and green text for sufficient balance) when they input their balance.  
-**Skills:** Dynamic class names, inline styling, and conditional rendering.
+**Technologies:**  
+- [Formik](https://formik.org/): For managing form state and validation.  
+- [Yup](https://github.com/jquense/yup): For schema validation.
 
-### [9. Transaction Simulator](#transaction-simulator)
-**Goal:** Add a feature for users to "deposit" or "withdraw" money. Update the balance dynamically based on their transactions.  
-**Skills:** Event handling, state updates based on user actions.
+---
 
-### [10. Welcome Carousel](#welcome-carousel)
-**Goal:** Create a rotating carousel of personalized welcome messages for multiple users.  
-**Skills:** React component lifecycle, `useState`, and `useEffect`.
+### 7. Multi-User Banking Dashboard
+**Goal:**  
+Allow adding multiple users with their names and account balances. Display a list of all users with their details.
+
+**Skills:**  
+- Managing lists with React state.  
+- Rendering dynamic lists.
+
+**Technologies:**  
+- [React Query](https://tanstack.com/query): For fetching and managing user data from a server.  
+- [Material-UI](https://mui.com/): For creating a responsive and interactive user interface.
+
+---
+
+### 8. Account Balance Threshold Notifier
+**Goal:**  
+Notify the user dynamically (e.g., red text for low balance and green text for sufficient balance) when they input their balance.
+
+**Skills:**  
+- Dynamic class names.  
+- Inline styling.  
+- Conditional rendering.
+
+**Technologies:**  
+- [Styled Components](https://styled-components.com/): For dynamic styling based on balance.  
+- [React Spring](https://react-spring.dev/): For adding smooth animations to balance notifications.
+
+---
+
+### 9. Transaction Simulator
+**Goal:**  
+Add a feature for users to "deposit" or "withdraw" money. Update the balance dynamically based on their transactions.
+
+**Skills:**  
+- Event handling.  
+- State updates based on user actions.
+
+**Technologies:**  
+- [Recoil](https://recoiljs.org/): For simplified state management.  
+- [React Transition Group](https://reactcommunity.org/react-transition-group/): For adding transitions to transaction updates.
+
+---
+
+### 10. Welcome Carousel
+**Goal:**  
+Create a rotating carousel of personalized welcome messages for multiple users.
+
+**Skills:**  
+- React component lifecycle.  
+- `useState` and `useEffect`.
+
+**Technologies:**  
+- [React-Slick](https://react-slick.neostack.com/): For creating a responsive and customizable carousel.  
+- [Framer Motion](https://www.framer.com/motion/): For adding animations to the carousel transitions.
 
 ---
 
