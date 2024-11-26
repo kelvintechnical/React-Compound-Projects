@@ -59,7 +59,7 @@ I believe the best way to learn is by building, which is why I spend my free tim
 
 ---
 
-## **Project 6: Account Balance Checker**
+## **Project 3: Account Balance Checker**
 
 ### **Goal:** Build a React app to check and display a user's account balance using Context API, API calls, and robust unit testing.
 
@@ -81,13 +81,37 @@ I believe the best way to learn is by building, which is why I spend my free tim
 
 ---
 
-### 4. Fixed Deposit Tracker
-**Goal:**  
-Create a button to add fixed deposit amounts to the account balance. Use a loop to simulate 5 deposits and update the balance iteratively.
+### 4. Fixed Deposit Tracker 
+## **Progression Chart**
 
-**Skills:**  
-- `useState`, event handling, and loops in React.
 
+This series breaks down the **Fixed Deposit Tracker** project into five smaller, independent projects, each building upon the skills learned in the previous one. By the end, you'll have the skills to complete the final project.
+
+
+| Project # | Name                     | Goal                                                                 | Key Concepts                           | Output                                                                                     |
+|-----------|--------------------------|----------------------------------------------------------------------|----------------------------------------|--------------------------------------------------------------------------------------------|
+| 1         | Deposit Simulator        | Create a simple React app to display a hardcoded account balance.   | Basic React setup, `useState`.         | A static account balance displayed on the screen.                                          |
+| 2         | Interactive Depositor    | Add a button to simulate adding a fixed deposit to the balance.     | `useState`, event handling.            | Button updates the account balance by a fixed amount.                                      |
+| 3         | Loop Deposits            | Simulate multiple deposits using a loop and display cumulative total. | Loops, state updates.                  | A button updates the balance iteratively with each deposit, showing the new balance.       |
+| 4         | Redux State Tracker      | Implement Redux to manage account balance state across components.  | Redux basics, `useSelector`, `useDispatch`. | Redux manages the account balance, accessible and modifiable across multiple components.   |
+| 5         | Enhanced Deposit Tracker | Use Lodash to simplify deposit operations and enhance performance.  | Lodash for array operations.           | A button triggers multiple deposits using Lodash methods for cleaner code.                 |
+
+---
+
+## **Project 4: Fixed Deposit Tracker**
+
+### **Goal:** Combine all skills to build a robust Fixed Deposit Tracker with Redux and Lodash.
+
+1. **Objective:** 
+   - Create a complete React app with a button that simulates 5 fixed deposits, updating the account balance iteratively.
+   - Use Redux for state management and Lodash to simplify loop operations.
+
+2. **Key Concepts:**
+   - React hooks (`useState`, `useEffect`).
+   - Redux for global state management.
+   - Lodash for cleaner and efficient loop/array operations.
+
+3. **Output:** A functional app where users can simulate fixed deposits and track their account balance.
 **Technologies:**  
 - [Redux](https://redux.js.org/): To manage state across multiple components.  
 - [Lodash](https://lodash.com/): For simplifying array operations and loops.
