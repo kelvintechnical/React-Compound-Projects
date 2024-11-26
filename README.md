@@ -48,11 +48,31 @@ I believe the best way to learn is by building, which is why I spend my free tim
 **Skills:** Handling forms, `useState` for managing form data.
 
 ### 3. Account Balance Checker
-**Goal:**  
-Add a feature to check if the entered account balance is above or below a threshold (e.g., $500).
 
-**Skills:**  
-- Conditional rendering using JavaScript expressions.
+## **Progression Chart**
+
+| Project # | Name                         | Goal                                     | Key Concepts                                                                                   | Output                                                                                   |
+|-----------|------------------------------|-----------------------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| 1         | React Basics - Hello React   | Learn React basics                      | Components, props, state, and handling user input.                                             | A web app that greets the user by name based on input.                                   |
+| 2         | Styling in React             | Apply styling to components             | CSS modules, inline styling, conditional styling, and responsive design.                      | A styled greeting app with improved UI and layout.                                       |
+| 3         | React Context API - User Profile | Manage global state using Context API | Context and Provider setup, consuming and updating context values.                            | A user profile app with a globally accessible and editable username.                    |
+| 4         | Fetching Data with React     | Fetch and display data from an API      | `useEffect`, API calls (`fetch`/`axios`), loading/error states, and displaying dynamic lists.  | An app that fetches and displays mock account details with loading/error messages.       |
+| 5         | Testing with Jest            | Write unit tests for React components   | Jest, React Testing Library, mocking API calls and context, and writing comprehensive tests.  | A test suite that verifies the functionality of the user profile app.                   |
+
+Account Balance Checker**
+
+### **Goal:** Combine all skills to build the final app.
+
+1. **Objective:** Build the complete Account Balance Checker app using:
+   - React Context for managing account details.
+   - API calls to fetch user account balances.
+   - A styled UI for account details.
+   - Unit tests for critical features.
+2. **Key Concepts:**
+   - Integrating Context, API calls, and testing.
+   - Finalizing responsive design.
+   - Adding conditional rendering (e.g., no data/error states).
+3. **Output:** A fully functional Account Balance Checker app.
 
 **Technologies:**  
 - [React Context API](https://reactjs.org/docs/context.html): To manage global state for the account balance.  
