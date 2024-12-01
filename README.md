@@ -30,346 +30,120 @@ Whether you’re a beginner taking your first steps into React or a developer lo
 
 Hi, my name is **Kelvin R. Tobias**, and I’m currently pursuing my **Software Engineering** degree at **Western Governors University**. My studies and personal projects have helped me gain experience in programming languages and frameworks, including **Python**, **JavaScript**, **Java**, **React**, and **C#**.
 
-I believe the best way to learn is by building, which is why I spend my free time creating projects to reinforce my skills. Through this repository, I aim to help others on their learning journey while continuing to grow as a developer.
+
+
+## Table of Contents
+1. [Introduction to React: Basic Setup and "Hello, World!"](##1-introduction-to-react-basic-setup-and-hello-world)
+2. [Understanding React Components](##2-understanding-react-components)
+3. [State in React (useState)](##3-state-in-react-usestate)
+4. [Handling User Input (Forms)](##4-handling-user-input-forms)
+5. [Conditional Rendering in React](##5-conditional-rendering-in-react)
+6. [Introduction to useEffect Hook](##6-introduction-to-useeffect-hook)
+7. [Event Handling in React](##7-event-handling-in-react)
+8. [Use of Arrays and Objects in State](##8-use-of-arrays-and-objects-in-state)
+9. [Updating State Based on Previous State](##9-updating-state-based-on-previous-state)
+10. [Dynamic Rendering of Multiple Components](##10-dynamic-rendering-of-multiple-components)
+11. [Managing Feedback in the App (State and Conditional Rendering)](##11-managing-feedback-in-the-app-state-and-conditional-rendering)
+12. [Working with Timers and Delays (setTimeout and setInterval)](##12-working-with-timers-and-delays-settimeout-and-setinterval)
+13. [Code Review and Refactoring](##13-code-review-and-refactoring)
+14. [Integrating Clipboard Functionality](##14-integrating-clipboard-functionality)
+15. [Building the Final Project: Line-by-Line Code Training](##15-building-the-final-project-line-by-line-code-training)
 
 ---
 
+## 1. Introduction to React: Basic Setup and "Hello, World!"
 
-# React Project Series: Foundational and Extended Projects
+**Goal:** Learn to set up a React app and display a basic output in the browser.
+- Create a simple React app with `create-react-app`.
+- Render the text "Hello, World!" inside a `<h1>` tag.
 
-## Phase 1: Foundational React Projects
+## 2. Understanding React Components
 
-### [1. Welcome to Banking App](https://github.com/kelvintechnical/welcome-to-banking/tree/main)
-**Goal:** Create a React app that displays "Welcome to Banking" and introduces state variables for account balance and user name.  
-**Skills:** React basics, functional components, and `useState`.
+**Goal:** Learn about functional components in React.
+- Create a simple component to display a greeting message.
+- Use JSX to render content inside the component.
 
-### [2. User Input Form](https://github.com/kelvintechnical/-User-Input-Form/blob/main/README.md)
-**Goal:** Build a form where users can input their name and account balance. Display the entered details on the screen.  
-**Skills:** Handling forms, `useState` for managing form data.
+## 3. State in React (useState)
 
-### 3. Account Balance Checker  **Progression Chart**
+**Goal:** Learn how to use React state with `useState`.
+- Create a button that toggles between two messages ("Hello" and "Goodbye").
+- Use `useState` to update the state and re-render the component.
 
-| Project # | Name                          | Goal                                     | Key Concepts                                                                                   | Output                                                                                   |
-|-----------|-------------------------------|-----------------------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| 1         | Dynamic Greeter               | Learn React basics                      | Components, props, state, and handling user input.                                             | A web app that greets the user by name based on input.                                   |
-| 2         | Styled Greetings              | Apply styling to components             | CSS modules, inline styling, conditional styling, and responsive design.                      | A styled greeting app with improved UI and layout.                                       |
-| 3         | Global User Manager           | Manage global state using Context API   | Context and Provider setup, consuming and updating context values.                            | A user profile app with a globally accessible and editable username.                    |
-| 4         | Account Details Fetcher       | Fetch and display data from an API      | `useEffect`, API calls (`fetch`/`axios`), loading/error states, and displaying dynamic lists.  | An app that fetches and displays mock account details with loading/error messages.       |
-| 5         | Profile Validator             | Write unit tests for React components   | Jest, React Testing Library, mocking API calls and context, and writing comprehensive tests.  | A test suite that verifies the functionality of the user profile app.                   |
+## 4. Handling User Input (Forms)
 
----
+**Goal:** Learn to handle user input through forms.
+- Create an input field and a button.
+- Use `useState` to capture the input and display it dynamically.
 
-## **Project 3: Account Balance Checker**
+## 5. Conditional Rendering in React
 
-### **Goal:** Build a React app to check and display a user's account balance using Context API, API calls, and robust unit testing.
+**Goal:** Learn to conditionally render content based on the state.
+- Display different content based on whether a user has typed something in the input field or not.
 
-1. **Objective:** Build the complete Account Balance Checker app using:
-   - React Context for managing account details.
-   - API calls to fetch user account balances.
-   - A styled UI for account details.
-   - Unit tests for critical features.
-2. **Key Concepts:**
-   - Integrating Context, API calls, and testing.
-   - Finalizing responsive design.
-   - Adding conditional rendering (e.g., no data/error states).
-3. **Output:** A fully functional Account Balance Checker app.
+## 6. Introduction to useEffect Hook
 
----
-**Technologies:**  
-- [React Context API](https://reactjs.org/docs/context.html): To manage global state for the account balance.  
-- [Jest](https://jestjs.io/): For unit testing the balance checking logic.
+**Goal:** Learn how to run side effects in React components using `useEffect`.
+- Set up an effect that runs when the component mounts.
+- Display a message when the component is first rendered.
 
----
+## 7. Event Handling in React
 
-### 4. Fixed Deposit Tracker 
-## **Progression Chart**
+**Goal:** Learn how to handle user actions such as clicks.
+- Add a button that, when clicked, updates a state variable.
+- Display feedback based on the button click (e.g., "Button clicked!").
 
+## 8. Use of Arrays and Objects in State
 
-This series breaks down the **Fixed Deposit Tracker** project into five smaller, independent projects, each building upon the skills learned in the previous one. By the end, you'll have the skills to complete the final project.
+**Goal:** Learn how to store and manipulate arrays/objects in state.
+- Set up a list of items in state and display them dynamically.
+- Add functionality to add new items to the list.
 
+## 9. Updating State Based on Previous State
 
-| Project # | Name                     | Goal                                                                 | Key Concepts                           | Output                                                                                     |
-|-----------|--------------------------|----------------------------------------------------------------------|----------------------------------------|--------------------------------------------------------------------------------------------|
-| 1         | Deposit Simulator        | Create a simple React app to display a hardcoded account balance.   | Basic React setup, `useState`.         | A static account balance displayed on the screen.                                          |
-| 2         | Interactive Depositor    | Add a button to simulate adding a fixed deposit to the balance.     | `useState`, event handling.            | Button updates the account balance by a fixed amount.                                      |
-| 3         | Loop Deposits            | Simulate multiple deposits using a loop and display cumulative total. | Loops, state updates.                  | A button updates the balance iteratively with each deposit, showing the new balance.       |
-| 4         | Redux State Tracker      | Implement Redux to manage account balance state across components.  | Redux basics, `useSelector`, `useDispatch`. | Redux manages the account balance, accessible and modifiable across multiple components.   |
-| 5         | Enhanced Deposit Tracker | Use Lodash to simplify deposit operations and enhance performance.  | Lodash for array operations.           | A button triggers multiple deposits using Lodash methods for cleaner code.                 |
+**Goal:** Learn to update state based on the previous state.
+- Create a counter that increments or decrements by 1 when buttons are clicked.
 
----
+## 10. Dynamic Rendering of Multiple Components
 
-## **Project 4: Fixed Deposit Tracker**
+**Goal:** Learn how to dynamically render components from an array.
+- Render a list of components based on an array in state.
+- Use the `.map()` method to iterate through the array and display the components.
 
-### **Goal:** Combine all skills to build a robust Fixed Deposit Tracker with Redux and Lodash.
+## 11. Managing Feedback in the App (State and Conditional Rendering)
 
-1. **Objective:** 
-   - Create a complete React app with a button that simulates 5 fixed deposits, updating the account balance iteratively.
-   - Use Redux for state management and Lodash to simplify loop operations.
+**Goal:** Learn to provide feedback to users based on actions (correct/incorrect).
+- Create a simple feedback system that displays success or error messages after form submission.
 
-2. **Key Concepts:**
-   - React hooks (`useState`, `useEffect`).
-   - Redux for global state management.
-   - Lodash for cleaner and efficient loop/array operations.
+## 12. Working with Timers and Delays (setTimeout and setInterval)
 
-3. **Output:** A functional app where users can simulate fixed deposits and track their account balance.
-**Technologies:**  
-- [Redux](https://redux.js.org/): To manage state across multiple components.  
-- [Lodash](https://lodash.com/): For simplifying array operations and loops.
+**Goal:** Learn how to use JavaScript timers in React.
+- Create a timer that shows a countdown and then triggers a specific action (like showing feedback).
 
----
+## 13. Code Review and Refactoring
 
-### 5. Personalized Welcome Component
-**Goal:**  
-Display a personalized welcome message using the user’s name and formatted account balance.
+**Goal:** Learn to refactor code for readability and maintainability.
+- Refactor the previous projects into smaller reusable components.
+- Separate logic, UI, and feedback into different functions or components.
 
-**Skills:**  
-- Props, state management, and string interpolation.
+## 14. Integrating Clipboard Functionality
 
-**Technologies:**  
-- [Styled Components](https://styled-components.com/): For styling the welcome message dynamically.  
-- [i18next](https://www.i18next.com/): For handling internationalization and localization of messages.
+**Goal:** Learn how to interact with the browser’s clipboard API.
+- Create a "Copy to Clipboard" feature that copies some text or code from the page.
+- Provide user feedback on whether the copy operation succeeded.
+
+## 15. Building the Final Project: Line-by-Line Code Training
+
+**Goal:** Combine all the learned skills into the final app.
+- Create a stateful app that displays code lines and their corresponding explanations.
+- Allow users to input their code and provide real-time feedback (correct or incorrect).
+- Use state to manage the growing project code and user input.
 
 ---
 
-## Phase 2: Extended React Projects
+## Conclusion
 
-### 6. Input Validation Form
-**Goal:**  
-Validate user inputs (e.g., ensure the account balance is numeric). Show error messages for invalid inputs.
+By the end of these 15 projects, you'll have gained a solid understanding of React's core concepts, and you'll have built a full-featured app that teaches users how to code line-by-line. Each project in this guide builds on the previous one, enabling you to develop the necessary skills in a progressive, easy-to-follow manner.
 
-**Skills:**  
-- Form validation.  
-- Conditional rendering for error messages.
-
-**Technologies:**  
-- [Formik](https://formik.org/): For managing form state and validation.  
-- [Yup](https://github.com/jquense/yup): For schema validation.
-
----
-
-### 7. Multi-User Banking Dashboard
-**Goal:**  
-Allow adding multiple users with their names and account balances. Display a list of all users with their details.
-
-**Skills:**  
-- Managing lists with React state.  
-- Rendering dynamic lists.
-
-**Technologies:**  
-- [React Query](https://tanstack.com/query): For fetching and managing user data from a server.  
-- [Material-UI](https://mui.com/): For creating a responsive and interactive user interface.
-
----
-
-### 8. Account Balance Threshold Notifier
-**Goal:**  
-Notify the user dynamically (e.g., red text for low balance and green text for sufficient balance) when they input their balance.
-
-**Skills:**  
-- Dynamic class names.  
-- Inline styling.  
-- Conditional rendering.
-
-**Technologies:**  
-- [Styled Components](https://styled-components.com/): For dynamic styling based on balance.  
-- [React Spring](https://react-spring.dev/): For adding smooth animations to balance notifications.
-
----
-
-### 9. Transaction Simulator
-**Goal:**  
-Add a feature for users to "deposit" or "withdraw" money. Update the balance dynamically based on their transactions.
-
-**Skills:**  
-- Event handling.  
-- State updates based on user actions.
-
-**Technologies:**  
-- [Recoil](https://recoiljs.org/): For simplified state management.  
-- [React Transition Group](https://reactcommunity.org/react-transition-group/): For adding transitions to transaction updates.
-
----
-
-### 10. Welcome Carousel
-**Goal:**  
-Create a rotating carousel of personalized welcome messages for multiple users.
-
-**Skills:**  
-- React component lifecycle.  
-- `useState` and `useEffect`.
-
-**Technologies:**  
-- [React-Slick](https://react-slick.neostack.com/): For creating a responsive and customizable carousel.  
-- [Framer Motion](https://www.framer.com/motion/): For adding animations to the carousel transitions.
-
----
-
-### Project Links
-- [Welcome to Banking App](#welcome-to-banking-app)
-- [User Input Form](#user-input-form)
-- [Account Balance Checker](#account-balance-checker)
-- [Fixed Deposit Tracker](#fixed-deposit-tracker)
-- [Personalized Welcome Component](#personalized-welcome-component)
-- [Input Validation Form](#input-validation-form)
-- [Multi-User Banking Dashboard](#multi-user-banking-dashboard)
-- [Account Balance Threshold Notifier](#account-balance-threshold-notifier)
-- [Transaction Simulator](#transaction-simulator)
-- [Welcome Carousel](#welcome-carousel)
-
-
-# 20 React Projects to Learn Essential Skills
-
-## 1. JSX Introduction: Todo List
-**Skills:** Understanding JSX, Components  
-- Create a simple Todo List app where users can add and display tasks.  
-- Learn how to use JSX to render the UI and break the app into functional components.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 2. Counter App
-**Skills:** State Management, Functional Components  
-- Build a Counter app with buttons to increment and decrement a value.  
-- Use `useState` for managing the counter value and functional components for structure.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 3. User Profile Card
-**Skills:** Props, Functional Components  
-- Create a reusable user profile card that accepts user details (name, photo, bio) as props.  
-- Focus on passing and rendering props in components.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 4. Weather Dashboard
-**Skills:** Lifecycle Methods, State Management  
-- Build a weather app that fetches weather data using an API.  
-- Use `useEffect` for fetching data on component mount and `useState` for managing API responses.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 5. Simple Blog Navigation
-**Skills:** React Router, Components  
-- Create a blog app with navigation between Home, About, and Posts pages using React Router.  
-- Structure the app with reusable components for each page.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 6. Theme Switcher
-**Skills:** React Context, State Management  
-- Build a theme switcher (dark mode/light mode) using React Context for global state sharing.  
-- Use `useState` to toggle between themes.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 7. Form Validator
-**Skills:** Custom Hooks, State Management  
-- Create a form validator app with fields for email and password.  
-- Build a custom hook for validation logic, reusing it across multiple fields.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 8. Error-Handled Calculator
-**Skills:** Error Boundaries, Functional Components  
-- Develop a basic calculator that handles invalid operations (e.g., division by zero) with an error boundary.  
-- Learn to isolate errors in components using `componentDidCatch`.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 9. Debugging with Strict Mode: Feedback Form
-**Skills:** React Strict Mode, State Management  
-- Create a feedback form app where users can submit their feedback.  
-- Use React Strict Mode to debug and identify best practices in your component structure.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 10. Image Gallery with Pagination
-**Skills:** React Router, Lifecycle Methods  
-- Build an image gallery with multiple pages using React Router for navigation.  
-- Use `useEffect` to fetch images dynamically when navigating between pages.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 11. Context-Based Authentication
-**Skills:** React Context, Props  
-- Build a simple authentication system with login/logout functionality.  
-- Use Context to manage the authentication state and pass it down via props.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 12. E-Commerce Cart
-**Skills:** State Management, Props  
-- Build a shopping cart that displays selected items and their total price.  
-- Use `useState` to manage the cart state and props to display item details.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 13. Dynamic Dropdown Menu
-**Skills:** Custom Hooks, Props  
-- Create a dynamic dropdown menu where options are passed as props.  
-- Write a custom hook to handle dropdown open/close state and logic.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 14. Blog Post Editor
-**Skills:** Lifecycle Methods, Props  
-- Build a blog post editor that fetches existing posts and allows editing.  
-- Use `useEffect` to fetch the initial data and props to pass the post content to components.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 15. Task Manager with Context
-**Skills:** React Context, Functional Components  
-- Create a task manager app with categories (e.g., Work, Personal).  
-- Use Context to manage tasks globally and functional components for structure.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 16. Error-Tolerant Search Bar
-**Skills:** Error Boundaries, Lifecycle Methods  
-- Develop a search bar that fetches and displays suggestions but gracefully handles API errors.  
-- Implement error boundaries to catch issues with data fetching logic.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 17. Themed User Profiles
-**Skills:** React Context, Custom Hooks  
-- Build a user profile app with global theme support and reusable custom hooks for fetching user data.  
-- Use Context for theme state and hooks for API logic.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 18. Navigation Bar
-**Skills:** React Router, Props  
-- Create a dynamic navigation bar where routes and labels are passed as props.  
-- Implement navigation with React Router to switch between views.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
-
-## 19. Data Table with Pagination
-**Skills:** State Management, Lifecycle Methods  
-- Build a data table displaying paginated user information fetched from an API.  
-- Use `useState` to manage pagination state and `useEffect` for data fetching.  
-[Link to Project](#) <!-- Add the project link here -->
-
----
 
 ## 20. Debugging with React Strict Mode
 **Skills:** React Strict Mode, Lifecycle Methods  
